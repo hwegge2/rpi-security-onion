@@ -7,11 +7,11 @@ MAINTAINER Hans Weggeman <hpweggeman@gmail.com>
 
 # ------------------------------------------------------------------------------
 # Install dependencies
- RUN sudo apt-get update && sudo apt-get upgrade
+ RUN apt-get update && apt-get upgrade
 
 # ------------------------------------------------------------------------------
 # Install Security Onion
-RUN sudo apt-get update &&\
+RUN apt-get update &&\
 apt-get -Y install software-properties-common &&\
 apt-get -Y install apt-utils &&\
 add-apt-repository -Y ppa:securityonion/stable &&\
