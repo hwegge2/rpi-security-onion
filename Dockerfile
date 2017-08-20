@@ -18,14 +18,14 @@ apt-get -y install bro &&\
 apt-get -y install suricata &&\
 apt-get -y install snort &&\
 apt-get -y install libdaq2 &&\
-apt-get -y install libhtp &&\
+apt-get -y install libhtp1 &&\
 apt-get -y install ossec-hids-server &&\
 apt-get -y install prads &&\
 apt-get -y install salt-master &&\
 apt-get -y install securityonion-argus-server &&\
-apt-get -y install securityonion-argus-client &&\
 apt-get -y install securityonion-capme &&\
 apt-get -y install securityonion-client &&\
+apt-get -y install syslog-ng-core &&\
 apt-get -y install securityonion-elsa &&\
 apt-get -y install securityonion-elsa-client &&\
 apt-get -y install securityonion-elsa-extras &&\
@@ -59,6 +59,7 @@ apt-get -y install securityonion-samples-mta &&\
 apt-get -y install securityonion-samples-pnsm &&\
 apt-get -y install securityonion-samples-shellshock &&\
 apt-get -y install securityonion-setup &&\
+apt-get -y install barnyard2 &&\
 apt-get -y install securityonion-sguil-agent-ossec &&\
 apt-get -y install securityonion-sguil-agent-client &&\
 apt-get -y install securityonion-sguil-db-purge &&\
