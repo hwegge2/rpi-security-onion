@@ -52,7 +52,6 @@ apt-get -y install securityonion-samples &&\
 apt-get -y install securityonion-samples-jackcr &&\
 apt-get -y install securityonion-samples-markofu &&\
 apt-get -y install securityonion-samples-mta &&\
-apt-get -y install securityonion-samples-pnsm &&\
 apt-get -y install securityonion-samples-shellshock &&\
 apt-get -y install securityonion-setup &&\
 apt-get -y install barnyard2 &&\
