@@ -59,7 +59,6 @@ apt-get -y install securityonion-sguil-agent-ossec &&\
 apt-get -y install securityonion-sguil-db-purge &&\
 apt-get -y install securityonion-skel &&\
 apt-get -y install securityonion-sostat &&\
-apt-get -y install securityonion-libtcl &&\
 
 
 apt-get -y dist-upgrade &&\
